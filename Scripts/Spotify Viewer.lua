@@ -5,7 +5,7 @@ To the begining of the script
 or just use the loadstring:
 
 getgenv().apikey = "OAuth token here"
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SeusTheABG/ROBLOX/main/Scripts/Spotify%20Viewer.lua"))()
 
 { Get OAuth token here: }
 https://developer.spotify.com/console/get-users-currently-playing-track
@@ -13,7 +13,6 @@ https://developer.spotify.com/console/get-users-currently-playing-track
 { Check these boxes: }
 https://cdn.discordapp.com/attachments/822581426364874824/962062001247502446/unknown.png
 ]]--
-getgenv().apikey = ""
 
 if (not apikey) then
 	game.Players.LocalPlayer:Kick("API Key not detected! Did you follow instructions correctly?") 
